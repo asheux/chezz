@@ -1,0 +1,7 @@
+# Environment
+venv/
+
+# Vim Stuff
+*.swo
+*.swp
+*.swn
