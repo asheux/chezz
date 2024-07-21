@@ -1,6 +1,8 @@
 # Environment
 venv/
 
+.DS_Store
+
 # Vim Stuff
 *.swo
 *.swp
