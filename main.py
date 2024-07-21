@@ -128,16 +128,16 @@ def main():
     clock = pygame.time.Clock()
     crashed = False
 
-    human = pygame.image.load('human.png')
+    human = pygame.image.load('images/human.png')
     human = transform_img(human, (50, 50))
 
-    wall_img = pygame.image.load('wall.jpg')
+    wall_img = pygame.image.load('images/wall.jpg')
     wall_img = transform_img(wall_img, (50, 50))
 
-    bot = pygame.image.load('bot.png')
+    bot = pygame.image.load('images/bot.png')
     bot = transform_img(bot, (50, 50))
 
-    bulletpicture = pygame.image.load('bullet.jpeg')
+    bulletpicture = pygame.image.load('images/bullet.jpeg')
     bulletpicture = transform_img(bulletpicture, (10, 10))
 
     matrix = [[wall_img, wall_img, wall_img, wall_img],
